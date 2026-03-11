@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="dotNet0311/dotNet0311.csproj" />
+  <Project Path="dotNet0318/dotNet0318.csproj" Id="000f1f53-a6d3-4ba0-a4f4-4fc96ade2896" />
+  <Project Path="dotNet0325/dotNet0325.csproj" Id="37ca7b6d-8a04-42c3-aa04-cb945765d706" />
+</Solution>
