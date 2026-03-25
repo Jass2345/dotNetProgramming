@@ -145,61 +145,61 @@
 
 // Console.WriteLine(number > 0 ? "자연수입니다" : "자연수가 아닙니다");
 
-//실습과제
-//1. 중첩 조건문을 사용하여 사용자에게 입력받은 숫자가 양수인지, 음수인지, 0인지 판단하여 출력하는 프로그램을 작성하라.
-int input = int.Parse(Console.ReadLine());
-if (input > 0)
-{
-    Console.WriteLine("양수입니다.");
-}
-else
-{
-    if (input < 0)
-    {
-        Console.WriteLine("음수입니다.");
-    }
-    else
-    {
-        Console.WriteLine("0입니다.");
-    }
-}
+// //실습과제
+// //1. 중첩 조건문을 사용하여 사용자에게 입력받은 숫자가 양수인지, 음수인지, 0인지 판단하여 출력하는 프로그램을 작성하라.
+// int input = int.Parse(Console.ReadLine());
+// if (input > 0)
+// {
+//     Console.WriteLine("양수입니다.");
+// }
+// else
+// {
+//     if (input < 0)
+//     {
+//         Console.WriteLine("음수입니다.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("0입니다.");
+//     }
+// }
 
-//2. 삼항연산자을 사용하여 사용자에게 입력받은 숫자를 이진수로 변환하여 출력하는 프로그램을 작성하라.
-int input = int.Parse(Console.ReadLine());
-string result = (input < 0) ? "양수를 입력하세요." : Convert.ToString(input, 2);
+// //2. 삼항연산자을 사용하여 사용자에게 입력받은 숫자를 이진수로 변환하여 출력하는 프로그램을 작성하라.
+// int input = int.Parse(Console.ReadLine());
+// string result = (input < 0) ? "양수를 입력하세요." : Convert.ToString(input, 2);
 
-//3. if문을 사용하여 사용자에게 숫자 3개를 입력받아 오름차순으로 정렬하여 출력하는 프로그램을 작성하라.
-Console.Write("첫 번째 숫자: ");
-int a = int.Parse(Console.ReadLine());
-Console.Write("두 번째 숫자: ");
-int b = int.Parse(Console.ReadLine());
-Console.Write("세 번째 숫자: ");
-int c = int.Parse(Console.ReadLine());
-int temp;
+// //3. if문을 사용하여 사용자에게 숫자 3개를 입력받아 오름차순으로 정렬하여 출력하는 프로그램을 작성하라.
+// Console.Write("첫 번째 숫자: ");
+// int a = int.Parse(Console.ReadLine());
+// Console.Write("두 번째 숫자: ");
+// int b = int.Parse(Console.ReadLine());
+// Console.Write("세 번째 숫자: ");
+// int c = int.Parse(Console.ReadLine());
+// int temp;
 
-if (a > b) { temp = a; a = b; b = temp; }
-if (a > c) { temp = a; a = c; c = temp; }
-if (b > c) { temp = b; b = c; c = temp; }
+// if (a > b) { temp = a; a = b; b = temp; }
+// if (a > c) { temp = a; a = c; c = temp; }
+// if (b > c) { temp = b; b = c; c = temp; }
 
-Console.WriteLine($"오름차순 정렬 결과: {a}, {b}, {c}");
+// Console.WriteLine($"오름차순 정렬 결과: {a}, {b}, {c}");
 
-//4. switch문을 사용하여, 사용자에게 입력받은 문자열에서 모음(a, e, i, o, u)의 개수를 세어 출력하는 프로그램을 작성하라.
-Console.Write("영문 문자열을 입력하세요: ");
-string input = Console.ReadLine().ToLower();
-int count = 0;
+// //4. switch문을 사용하여, 사용자에게 입력받은 문자열에서 모음(a, e, i, o, u)의 개수를 세어 출력하는 프로그램을 작성하라.
+// Console.Write("영문 문자열을 입력하세요: ");
+// string input = Console.ReadLine().ToLower();
+// int count = 0;
 
-foreach (char ch in input) {
-    switch (ch) {
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u':
-            count++;
-            break;
-        default:
-            break;
-    }
-}
+// foreach (char ch in input) {
+//     switch (ch) {
+//         case 'a':
+//         case 'e':
+//         case 'i':
+//         case 'o':
+//         case 'u':
+//             count++;
+//             break;
+//         default:
+//             break;
+//     }
+// }
 
-Console.WriteLine($"모음의 총 개수: {count}개");
+// Console.WriteLine($"모음의 총 개수: {count}개");
