@@ -160,15 +160,15 @@
 //int doubleToInt = (int)doubleNumber;
 //Console.WriteLine(doubleToInt);
 
-//2주차 과제 260311
-//1번
-String input = Console.ReadLine();
-int stringToInt = (int)input[0];
-double intToDouble = (double)stringToInt;
-double result = intToDouble * 1.5;
-Console.WriteLine(result);
+// //2주차 과제 260311
+// //1번
+// String input = Console.ReadLine();
+// int stringToInt = (int)input[0];
+// double intToDouble = (double)stringToInt;
+// double result = intToDouble * 1.5;
+// Console.WriteLine(result);
 
-//2번
-Char doubleToChar = (Char)result;
-string charToString = doubleToChar.ToString();
-Console.WriteLine(charToString.Length);
+// //2번
+// Char doubleToChar = (Char)result;
+// string charToString = doubleToChar.ToString();
+// Console.WriteLine(charToString.Length);
