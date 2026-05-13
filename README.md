@@ -33,7 +33,7 @@ dotnetProgram/
 .\create-daily-project.ps1 -date "0325"
 
 # 또는 수동으로 생성
-dotnet new console -n dotnet0325 -f net10.0
+dotnet new console -n dotNet0325 -f net10.0
 ```
 
 스크립트 실행 시 자동으로 생성되는 것:
