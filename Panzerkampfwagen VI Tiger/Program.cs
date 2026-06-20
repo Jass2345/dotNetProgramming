@@ -17,6 +17,9 @@
         get => GamePrice;
         set { GamePrice = value; }
     }
+    //섀도잉은 변수 이름이 겹쳐서 발생하는 문제야.
+    //변수 이름과 프로퍼티 이름이 동일하기 때문에 무한 재귀 호출이 발생하는데,
+    //이걸 해결하기 위해서 변수 이름과 프로퍼티 이름을 다르게 설정해야 하는거야.
     private int PlayerCount
     {
         get => PlayerCount;
